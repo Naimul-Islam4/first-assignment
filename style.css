@@ -48,6 +48,64 @@ body {
 
 
 
+/* THIRD SECTION */
+.third-section {
+    display: flex;
+    background-image: url(photos/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 187px;
+    background-position: 50px 50px;
+    margin-bottom: 70px;
+}
+
+.third-section-width1 {
+    width: 50%;
+}
+
+.third-section-width2 {
+    width: 50%;
+    padding-right: 125px;
+    margin-left: -10px;
+    margin-top: 26px;
+}
+
+.third-section-width1 img {
+    width: 60%;
+    margin-left: 132px;
+}
+
+
+
+/* SECTION FOUR */
+.section-four {
+    display: flex;
+    background-image: url(photos/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: 1025px 210px;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+
+}
+
+.section-four-width1 {
+    width: 50%;
+    margin-left: 126px;
+    padding-right: 20px;
+}
+
+.section-four-width2 {
+    width: 50%;
+}
+
+.section-four-width2 img {
+    width: 60%;
+    margin-left: 90px;
+}
+
+
+
+
 /* Heading Design */
 h1 {
     font-size: 55px;
@@ -75,6 +133,19 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#develop {
+    margin-bottom: -16px;
+}
+
+#limit {
+    margin-bottom: 0px;
+}
+
 h4 {
     font-size: 22px;
     margin-bottom: -22px;
@@ -87,6 +158,7 @@ h4 {
 .big-paragraph {
     font-size: 18px;
     margin-bottom: 30px;
+    color: rgb(78, 75, 75);
 }
 
 .small-paragraph {
