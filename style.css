@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+/* FIST SECTION */
+.flexible {
+    display: flex;
+    margin: 0 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.half-width {
+    width: 50%;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.half-width img {
+    width: 85%;
+    margin-top: -70px;
+}
+
+
+
+/* Heading Design */
+h1 {
+    font-size: 55px;
+}
+
+#focused {
+    margin-bottom: -38px;
+    padding-left: 10px;
+}
+
+#mission {
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.left-border {
+    border-left: 5px solid rgb(241, 116, 102);
+    border-radius: 5px;
+}
+
+
+
+/* PARAGRAPH DESIGN */
+.big-paragraph {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.small-paragraph {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+
+
+/* BUTTON */
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(241, 116, 102);
+    font-size: 14px;
+    font-weight: 900;
+    padding: 10px 26px;
+    border-radius: 5px;
+}
+
+
+
+/* COLOR */
+.orange {
+    color: rgb(241, 161, 13);
+}
