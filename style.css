@@ -7,7 +7,7 @@ body {
     display: flex;
     margin: 0 20px;
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .half-width {
@@ -23,6 +23,31 @@ body {
 
 
 
+/* SECOND SECTION */
+.flex-three {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 75px;
+}
+
+.third-width {
+    width: 28%;
+    padding-left: 28px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    margin: 0 12px;
+    border-radius: 22px;
+}
+
+.third-width img {
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+
+
 /* Heading Design */
 h1 {
     font-size: 55px;
@@ -33,7 +58,7 @@ h1 {
     padding-left: 10px;
 }
 
-#mission {
+#mission-2022 {
     margin-bottom: 0px;
     padding-left: 10px;
 }
@@ -42,6 +67,19 @@ h1 {
     border-left: 5px solid rgb(241, 116, 102);
     border-radius: 5px;
 }
+
+h2 {
+    font-size: 40PX;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: -22px;
+}
+
 
 
 
@@ -74,4 +112,20 @@ h1 {
 /* COLOR */
 .orange {
     color: rgb(241, 161, 13);
+}
+
+.navy-blue {
+    color: rgb(13, 13, 63);
+}
+
+#gray {
+    background-color: rgba(234, 213, 213, 0.53);
+}
+
+#salmon {
+    background-color: rgba(180, 216, 169, 0.502);
+}
+
+#cyan {
+    background-color: rgba(174, 195, 234, 0.548);
 }
